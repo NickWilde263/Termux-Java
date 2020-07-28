@@ -30,6 +30,7 @@ else
 	arm)
 		archname="arm"; tag="v8-151" ;;
 	*)
+		#echo -e '\033[m' is use to reset text formatting
 		ee "\e[91mERROR: Unknown architecture."; echo; exit ;;
 	esac
 	
